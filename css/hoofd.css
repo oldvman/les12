@@ -1,0 +1,146 @@
+/* css voor nha-les12 */
+
+
+body {
+  background-color: darkslategrey;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #7fcbf8;
+  height: 100px;
+}
+
+ul {
+  display: table;
+  width: 10%;
+}
+
+nav {
+  list-style: center;
+  text-transform: uppercase;
+}
+
+nav ul li {
+  display: table-cell;
+}
+
+nav li {
+  display: inline;
+  padding-bottom: : 10px;
+}
+/* om streepje onder link te vermijden */
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  color: orangered;
+}
+/* ik gebruik main om een beeldvullend scherm te krijgen met header, main en footer */
+main {
+  height: calc(100% - 150px);
+}
+
+footer {
+  background-color: #f6ff83;
+  height: 50px;
+  color: blue;
+  padding-left: 25px;
+}
+
+h1 {
+  font-size: xx-large;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+}
+/* classes */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foto {
+  width: 250px;
+  height: auto;
+  border-width: medium;
+  border-color: white;
+  border-style: solid;
+}
+
+.woorden {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+/* id's */
+#tafel{
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+#een-een{
+  background-color: #788eea;
+  color:#fff;
+  width: 25%;
+}
+#een-twee{
+  background-color: #a178ea;
+  width: 25%;
+}
+#een-drie{
+  background-color: #e978ea;
+  color: green;
+    width: 25%;
+}
+#een-vier{
+  background-color: #f67e9e;
+  width: 25%;
+}
+#twee-een{
+  background-color: #ff9683;
+  color:#075d8e;
+}
+#twee-twee{
+  background-color: #ffbe83;
+}
+#twee-drie{
+  background-color: #ffd783;
+  color: mediumorchid;
+}
+#twee-vier{
+  background-color: #fff083;
+}
+#drie-een{
+  background-color: #83f871;
+  color: crimson;
+}
+#drie-twee{
+  background-color: #70f5f4;
+}
+#drie-drie{
+  background-color: #70b0f5;
+  color: lightgoldenrodyellow;
+}
+#drie-vier{
+  background-color: #7870f5;
+}
+#vier-een{
+  background-color: #bc70f5;
+  color: yellow;
+}
+#vier-twee{
+  background-color: #f972d2;
+}
+#vier-drie{
+  background-color: #ff757e;
+  color:#greenyellow;
+}
+#vier-vier{
+  background-color: #ffa275;
+}

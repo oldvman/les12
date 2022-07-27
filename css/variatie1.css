@@ -1,0 +1,149 @@
+/* css voor nha-les12 */
+/* VARIATIE 1 */
+
+body {
+  background-color: darkslategrey;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: maroon;
+  height: 100px;
+}
+
+ul {
+  display: table;
+  width: 10%;
+}
+
+nav {
+  list-style: center;
+  text-transform: uppercase;
+}
+
+nav ul li {
+/*  height: 50%;
+  vertical-align: middle; */
+  display: table-cell;
+}
+
+nav li {
+display: inline;
+  padding-bottom: : 10px;
+}
+/* om streepje onder link te vermijden */
+nav a {
+  /* display: inline-block; */
+  text-decoration: none;
+  color: white;
+}
+
+li{
+  color: yellow;
+}
+/* ik gebruik main om een beeldvullend scherm te krijgen met header, main en footer */
+main {
+  height: calc(100% - 150px);
+}
+
+footer {
+  background-color: seagreen;
+  height: 50px;
+  color: azure;
+  padding-left: 25px;
+}
+
+h1 {
+  font-size: xx-large;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+}
+/* classes */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foto {
+  width: 250px;
+  height: auto;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+}
+
+.woorden {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+/* id's */
+#tafel{
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+#een-een{
+  background-color: red;
+  color:powderblue;
+  width: 30%;
+}
+#een-twee{
+  background-color: firebrick;
+  width:20%;
+}
+#een-drie{
+  background-color: crimson;
+  color: lightblue;
+    width: 30%;
+}
+#een-vier{
+  background-color: indianred;
+  width: 20%;
+}
+#twee-een{
+  background-color: lightsalmon;
+  color: navy;
+}
+#twee-twee{
+  background-color: darksalmon;
+}
+#twee-drie{
+  background-color: salmon;
+  color: darkblue;
+}
+#twee-vier{
+  background-color: lightcoral;
+}
+#drie-een{
+  background-color: palegreen;
+  color: mediumblue;
+}
+#drie-twee{
+  background-color: greenyellow;
+}
+#drie-drie{
+  background-color: lightgreen;
+  color: blue;
+}
+#drie-vier{
+  background-color: lawngreen;
+}
+#vier-een{
+  background-color: mediumspringgreen;
+  color: midnightblue;
+}
+#vier-twee{
+  background-color: darkseagreen;
+}
+#vier-drie{
+  background-color: mediumaquamarine;
+  color:#royalblue;
+}
+#vier-vier{
+  background-color: yellowgreen;
+}
